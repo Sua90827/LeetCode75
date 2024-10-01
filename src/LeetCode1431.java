@@ -13,7 +13,7 @@ public class LeetCode1431 {
 
     public static List<Boolean> kidsWithTheGreatestNumOfCandies(int[] candies, int extraCandies){
         int biggestNum = 0;
-        List<Boolean> answer = new ArrayList<Boolean>();
+        List<Boolean> answer = new ArrayList<>();
 
         for(int n : candies){
             if(n > biggestNum){
